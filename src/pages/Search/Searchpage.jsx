@@ -91,9 +91,6 @@ const Searchpage = () => {
                   <span className="text-pink-600 font-bold text-lg">
                     ৳{product.price}
                   </span>
-                  <button className="bg-pink-100 text-pink-600 px-2 py-2  rounded-2xl hover:bg-pink-600 hover:text-white transition-all active:scale-90">
-                    add to cart
-                  </button>
                 </div>
               </div>
             ))}
