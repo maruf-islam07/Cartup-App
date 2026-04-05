@@ -19,7 +19,7 @@ import Layout from "../Layout/Layout";
 
 function Footer() {
   return (
-    <footer className="shadow ">
+    <footer className="shadow py-5">
       <Layout>
         {/* footer top */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-8 px-5 md:px-10 bg-white">

@@ -31,7 +31,7 @@ const ProductList = () => {
   }, [dispatch]);
 
   return (
-    <div className="my-6">
+    <div className="my-6 px-5 md:px-0">
       <Layout>
         <h3 className="bg-white md:p-4 text-2xl my-7 px-5">
           Deals You Can’t Miss
