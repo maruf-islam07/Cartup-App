@@ -91,6 +91,9 @@ const Searchpage = () => {
                   <span className="text-pink-600 font-bold text-lg">
                     ৳{product.price}
                   </span>
+                  <p className="line-through text-gray-500 font-semibold">
+                    ${product.discountPercentage}
+                  </p>
                 </div>
               </div>
             ))}
