@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(255, 77, 106) !important;
+  background: rgb(255, 221, 221);
+  padding: 5px;
+  width: 20px !important;
+  height: 20px !important;
+}
+.swiper-button-prev {
+  left: -2px !important;
+  border-radius: 10px 50px 50px 10px;
+}
+
+.swiper-button-next {
+  right: -2px !important;
+  border-radius: 50px 10px 10px 50px;
+}
+
+.swiper-pagination-bullet {
+  background: rgb(255, 91, 118) !important;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 3px;
+}
